@@ -1,4 +1,4 @@
-### Hi there,Im Farouk! 👋
+### Hi there, Im Farouk! 👋
 
 
 -    I’m currently learning Kotlin
