@@ -1,9 +1,4 @@
-### Hi there, Im Farouk! 👋
-
-
--    I’m currently learning Kotlin Multiplatform Mobile
-
--    How to reach me: Faroukabichou@takiacademyteam.com
+### Hi there! 👋
 
 
 ![alt text](https://github.com//Farouk-abichou/Farouk-abichou/blob/main/kotliiiiii.png?raw=true)
