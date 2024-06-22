@@ -55,6 +55,7 @@ kotlin {
         androidMain.dependencies {
             implementation(compose.preview)
             implementation(libs.androidx.activity.compose)
+            implementation("androidx.compose.ui:ui-text-google-fonts:1.6.8")
         }
         commonMain.dependencies {
             implementation(compose.runtime)
@@ -105,6 +106,9 @@ android {
     dependencies {
         debugImplementation(compose.uiTooling)
     }
+}
+dependencies {
+    implementation(libs.firebase.crashlytics.buildtools)
 }
 
 compose.desktop {
