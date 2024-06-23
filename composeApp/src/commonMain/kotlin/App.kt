@@ -9,6 +9,7 @@ import androidx.compose.ui.graphics.ImageBitmap
 import kustomize.composeapp.generated.resources.Res
 import kustomize.composeapp.generated.resources.comet
 import kustomize.composeapp.generated.resources.compose_multiplatform
+import kustomize.composeapp.generated.resources.testt
 import org.jetbrains.compose.resources.imageResource
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
@@ -25,7 +26,7 @@ fun App(
             .background(color = Color(0xff292A30)),
         contentAlignment = androidx.compose.ui.Alignment.Center
     ){
-        Image(painterResource(Res.drawable.comet), null)
+        Image(painterResource(Res.drawable.testt), null)
 
     }
 //    MaterialTheme(
