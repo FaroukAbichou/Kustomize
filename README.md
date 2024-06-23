@@ -1,21 +1,13 @@
-This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop.
+# Kustomize
 
-* `/composeApp` is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-  - `commonMain` is for code that’s common for all targets.
-  - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-    For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-    `iosMain` would be the right folder for such calls.
+Kustomize is a Kotlin Multiplatform project designed as a proof of concept. It showcases how users can customize their user experience by selecting their favorite colors, fonts, and themes. This project aims to demonstrate the potential for user personalization in applications, providing a simple and intuitive interface for making customizations.
 
-* `/iosApp` contains iOS applications. Even if you’re sharing your UI with Compose Multiplatform, 
-  you need this entry point for your iOS app. This is also where you should add SwiftUI code for your project.
+## Description
 
+Kustomize allows users to tailor their application's look and feel according to their preferences. By choosing from a variety of colors, fonts, and themes, users can create a personalized experience that suits their tastes. The project leverages Kotlin's multiplatform capabilities to ensure compatibility across different platforms, providing a seamless customization experience.
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## Links
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [GitHub](https://github.com/JetBrains/compose-multiplatform/issues).
+- [Design on Figma](https://www.figma.com/community/file/1386770518155212936/kustomize)
 
-You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle task.
+Feel free to explore the design and use it to create your own customized user experiences!
